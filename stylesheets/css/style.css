@@ -279,7 +279,7 @@ html.right-sidebar-opened .right-sidebar {
     padding: 10px;
   }
   html .page-body .content-header {
-    margin: -10px -10px 10px -10px;
+    margin: 0 -10px 10px -10px;
   }
   html .page-body .left-sidebar {
     bottom: 0;
