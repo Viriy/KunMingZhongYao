@@ -1598,7 +1598,8 @@ body.modal-open .row.animated {
 .form-group .help-block {
   margin-bottom: 5px;
 }
-.form-control{height: 38px;line-height: 28px\0;*line-height: 28px;padding-right: 46px}
+.form-control{height: 38px;line-height: 28px\0;*line-height: 28px;padding-right: 46px;-webkit-box-shadow: none;
+    box-shadow: none}
 input::-webkit-input-safebox-button{display: none}
 .pr{position: relative}
 .pa{position: absolute}
