@@ -59,7 +59,7 @@ h1,.h1,h2,.h2,h3,.h3{margin:0}
 .mt50{margin-top:.666667rem}
 .mt60{margin-top:.8rem}
 .mb140{margin-bottom:1.866667rem}
-.body_texture{background:url("../../images/cell/bot_bg.png") bottom no-repeat,url('../../images/cell/texture.jpg') center repeat-y,;background-size:100%}
+.body_texture{background:url("../../images/cell/bot_bg.png") bottom no-repeat,url('../../images/cell/texture.jpg') center repeat-y;background-size:100%}
 article{max-width:540px}
 .i{display:inline-block}
 
