@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>防伪信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="stylesheets/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/css/cell.css">
+    <script src="javascripts/resize.js"></script>
+</head>
+
+<body class="body_texture">
+    <article>
+        <div class="sprite t_img"></div>
+        <div class="tcm_info sprite bor mlr30 mt" flex="main:center">
+            <div class="txt">
+                <p flex><em class="brown_bg i">【品　　名】</em><span>当归</span></p>
+                <p flex><em class="brown_bg i">【地理位置】</em><span>陕西汉中</span></p>
+                <p flex><em class="brown_bg i">【种　　源】</em><span>陕西的</span></p>
+                <p flex><em class="brown_bg i">【环　　境】</em><span>环境好</span></p>
+                <p flex><em class="brown_bg i">【海　　拔】</em><span>300m</span></p>
+            </div>
+            <div class="img radius i">
+                <img class="radius" src="images/cell/img.jpg" alt="">
+            </div>
+        </div>
+        <div class="tab_wrap">
+            <!-- Nav tabs -->
+            <ul class="tab_link f28 brown text-center" flex="box:mean">
+                <li class="active">
+                    <a href="#tab1" role="tab" data-toggle="tab"></a>
+                </li>
+                <li>
+                    <a href="#tab2" role="tab" data-toggle="tab"></a>
+                </li>
+                <li>
+                    <a href="#tab3" role="tab" data-toggle="tab"></a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
+                    <!-- banner -->
+                    <div id="carousel_img" class="carousel slide carousel-fade" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel_img" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel_img" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/cell/show_bar.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/cell/img.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="tit_txt text-center"><i class="icon icon_drt_l"></i><em class="f36 i orange bold">当归</em><i class="icon icon_drt_r"></i></h1>
+                    <ul class="txtinfo_wrap colorlight">
+                        <li flex="box:mean">
+                            <div class="item" flex><em>种植面积：</em><p class="flex1">600</p></div>
+                            <div class="item" flex><em>拍摄时间：</em><p class="flex1">2018-01-03</p></div>
+                        </li>
+                        <li>
+                            <p><em>照片说明：</em></p>
+                            <p>当归是常用药材,它具有很好的补血活血功效,用当归泡水喝能提高身体免疫力、防治癌症、消炎、保护心血管。</p>
+                        </li>
+                        <li>
+                            <p><em>备　　注：</em></p>
+                            <p>备注文字</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="tab2">采收加工</div>
+                <div class="tab-pane" id="tab3">中药材流通</div>
+            </div>
+        </div>
+    </article>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $('.tab_link a').click(function(e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+    </script>
+</body>
+
+</html>
