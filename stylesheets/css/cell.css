@@ -103,7 +103,7 @@ input[disabled]{background:#e5e2df;color:#666}
 
 #carousel_img img{width:100%;height:3.6rem}
 .carousel-indicators{bottom:.12rem;margin-bottom:0}
-.carousel-indicators li{width:.2rem;height:.2rem;background:rgba(255,255,255,.8);vertical-align:middle}
+.carousel-indicators li{width:.2rem;height:.2rem;background:rgba(255,255,255,.8);vertical-align:middle;border-radius: 1rem}
 .carousel-indicators .active{width:.26rem;height:.26rem;background:#ffbe32;border-color:#ffbe32}
 
 /*fade*/
