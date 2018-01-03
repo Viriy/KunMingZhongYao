@@ -119,6 +119,6 @@ input[disabled]{background:#e5e2df;color:#666}
 }
 @media (max-width:540px) {
   article{min-width:7.2rem}
-  .body_texture{background-size:7.2rem}
+  .body_texture{background-size:100%}
   .t_img{width:100%;background-size: 100%}
 }
