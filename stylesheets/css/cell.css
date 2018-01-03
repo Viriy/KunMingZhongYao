@@ -94,12 +94,12 @@ input[disabled]{background:#e5e2df;color:#666}
 .tab_wrap .tab_link{margin:.666667rem .933333rem .533333rem;padding:0}
 .tab_wrap .tab_link a{display:block;line-height:1.4rem}
 .tab_wrap .tab_link li:not(:last-child){margin-right:.4rem}
-.tab_wrap .tab-content{margin:0 .533333rem 1.6rem;padding:.533333rem .48rem;border:.04rem solid #96753b;border-radius:.08rem;background:#f1ece7}
+.tab_wrap .tab-content{margin:0 .4rem 1.6rem;padding:.533333rem .3rem;border:.04rem solid #96753b;border-radius:.08rem;background:#e9e3dd}
 
-.txtinfo_wrap .item:not(:last-child){margin-right:.48rem}
+.txtinfo_wrap .item:not(:last-child){margin-right:.3rem}
 .txtinfo_wrap li{margin-bottom: 0.2rem}
-.txtinfo_wrap li:first-child .item{background:url("../../images/cell/bor_b1.gif") bottom no-repeat,url('../../images/cell/bor_t1.gif') no-repeat;background-size:3.693333rem;padding:.16rem}
-.txtinfo_wrap li:not(:first-child){background:url("../../images/cell/bor_b2.gif") bottom no-repeat,url('../../images/cell/bor_t2.gif') no-repeat;background-size:7.866667rem;padding:.16rem}
+.txtinfo_wrap li:first-child .item{background:url("../../images/cell/bor_b1.gif") bottom no-repeat,url('../../images/cell/bor_t1.gif') no-repeat;background-size:100%;padding:.16rem .12rem}
+.txtinfo_wrap li:not(:first-child){background:url("../../images/cell/bor_b2.gif") bottom no-repeat,url('../../images/cell/bor_t2.gif') no-repeat;background-size:100%;padding:.16rem .12rem}
 
 #carousel_img img{width:100%;height:3.6rem}
 .carousel-indicators{bottom:.12rem;margin-bottom:0}
