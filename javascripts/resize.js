@@ -21,9 +21,9 @@
 //              设置rem的js设置的字体大小
                 view_jsset_font=75 * (clientWidth / 750);
 //              最终的字体大小为rem字体/系数
-                result_font=view_jsset_font/xs;
+                //result_font=view_jsset_font/xs;
 //              设置根字体大小
-                docEl.style.fontSize = result_font + 'px';
+                docEl.style.fontSize = view_jsset_font + 'px';
                 }
             else{
                 docEl.style.fontSize = 54 + 'px';
