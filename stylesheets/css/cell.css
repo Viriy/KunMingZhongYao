@@ -83,7 +83,7 @@ input[disabled]{background:#e5e2df;color:#666}
 .line_txt:before{left:50%;margin-left:-2.9rem}
 .line_txt:after{left:50%;margin-left:.9rem}
 
-.tcm_info .txt{margin-right:.2rem}
+.tcm_info .txt{width:4.5rem;margin-right:.2rem}
 .tcm_info .txt em{line-height:.48rem}
 .tcm_info .txt span{border-bottom:1px dashed #e1d0c2;padding-left:.2rem}
 .tcm_info .txt p{margin-bottom:.16rem}
@@ -119,6 +119,6 @@ input[disabled]{background:#e5e2df;color:#666}
 }
 @media (max-width:540px) {
   article{min-width:7.2rem}
-  .body_texture{background-size:100%}
+  .body_texture{background-size:7.2rem}
   .t_img{width:100%;background-size: 100%}
 }
