@@ -94,7 +94,7 @@ input[disabled]{background:#e5e2df;color:#666}
 .tab_wrap .tab_link{margin:.666667rem .933333rem .533333rem;padding:0}
 .tab_wrap .tab_link a{display:block;line-height:1.4rem}
 .tab_wrap .tab_link li:not(:last-child){margin-right:.4rem}
-.tab_wrap .tab-content{margin:0 .533333rem 1.6rem;padding:.533333rem .48rem;border:.04rem solid #96753b;border-radius:.08rem;background:#e9e3dd}
+.tab_wrap .tab-content{margin:0 .533333rem 1.6rem;padding:.533333rem .48rem;border:.04rem solid #96753b;border-radius:.08rem;background:#f1ece7}
 
 .txtinfo_wrap .item:not(:last-child){margin-right:.48rem}
 .txtinfo_wrap li{margin-bottom: 0.2rem}
