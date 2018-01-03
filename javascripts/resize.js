@@ -7,7 +7,7 @@
             var user_webset_font=getComputedStyle(doc.documentElement,false)['fontSize'];
         }
 //      取整后与默认16px的比例系数
-        var xs=parseFloat(user_webset_font)/16;
+        var xs=parseFloat(user_webset_font)/11.4;
 //      设置rem的js设置的字体大小
         var view_jsset_font,result_font;
         var docEl = doc.documentElement,
