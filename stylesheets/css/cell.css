@@ -85,7 +85,7 @@ input[disabled]{background:#e5e2df;color:#666}
 
 .tcm_info .txt{width:4.5rem;margin-right:.2rem}
 .tcm_info .txt em{line-height:.48rem}
-.tcm_info .txt span{border-bottom:1px dashed #e1d0c2;padding-left:.2rem}
+.tcm_info .txt p> span{border-bottom:1px dashed #e1d0c2;padding-left:.2rem}
 .tcm_info .txt p{margin-bottom:.16rem}
 .tcm_info .img{padding:.16rem;border:1px dashed #b2866b}
 .tcm_info img{width:2.986667rem;height:2.986667rem;border:.106667rem solid #fff}
