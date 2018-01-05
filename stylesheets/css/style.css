@@ -2215,8 +2215,7 @@ html.accounts .box{
   margin:20px auto 0px}
 
 html.sign-in body{
-	position: relative;
-	top: 0;
+	min-height: 100%;
   background:url(../../images/login_bg.jpg) 50% no-repeat;
   background-size:cover;
   background-position:50%\0;
