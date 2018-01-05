@@ -2215,8 +2215,8 @@ html.accounts .box{
   margin:20px auto 0px}
 
 html.sign-in body{
-  background:url(../../images/login_bg.jpg) 50% no-repeat;
-  background-size:cover
+  background:url(../../images/login_bg.jpg) fixed 50% no-repeat;
+  /* background-size:cover */
 }
 html.sign-in body hr{
   border-color:#ccc;
