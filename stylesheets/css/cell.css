@@ -15,6 +15,9 @@ ul,ol,li{list-style:none;margin:0;padding:0}
 p{margin:0}
 a:focus,a:hover{text-decoration:none}
 em,i{font-style:normal}
+
+a:hover, a:focus{color:inherit}
+.tc{text-align: center}
 .icon,.tab_wrap .tab_link a{
   font-family:"kzyfont";
   font-style:normal;
@@ -50,6 +53,10 @@ em,i{font-style:normal}
 html,body{min-height:100%}
 h1,.h1,h2,.h2,h3,.h3{margin:0}
 .pr{position:relative}
+.pa{position: absolute}
+.t0{top: 0}
+.l0{left: 0}
+.r0{right: 0}
 .bold,.txtinfo_wrap em{font-weight:700}
 .m_auto,article{margin-left:auto;margin-right:auto}
 .mlr75{margin-left:1rem;margin-right:1rem}
@@ -117,3 +124,13 @@ input[disabled]{background:#e5e2df;color:#666}
   article{width:540px}
   .body_texture{background-size:540px}
 }
+
+/*find pwd*/
+.font30{font-size:30px}
+.font20{font-size: 20px}
+.font18{font-size: 18px}
+.font16{font-size: 16px}
+.font14{font-size: 14px}
+.page-header,.page-header a.fa,.page-header h1{line-height: 50px}
+.page-header .t_icon{padding:0 15px;height: 50px}
+.dropdown-box{line-height: 26px}

@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>昆中药中药资源平台</title>
+    <title>修改密码</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/animate.css/animate.css">
     <link rel="stylesheet" href="stylesheets/css/style.css">
+    <link rel="stylesheet" href="stylesheets/css/cell.css">
 </head>
 
 <body>
     <div class="wrap">
         <div class="page-header">
+            <h1 class="font20 tc visible-xs">修改密码</h1>
             <div class="leftside-header">
-                <a href="index.html" class="logo"></a>
-                <div id="menu-toggle" class="visible-xs toggle-left-sidebar" data-toggle-class="left-sidebar-open" data-target="html">
-                    <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
-                </div>
+                <a href="index.html" class="logo hidden-xs"></a>
+                <a href="javascript:history.go(-1);" class="fa fa-angle-left t_icon visible-xs pa t0 l0 font30 white tc"></a>
             </div>
-            <div class="rightside-header">
+            <div class="rightside-header hidden-xs">
                 <div class="header-middle"></div>
                 <div class="header-section" id="user-headerbox">
                     <div class="user-header-wrap">
@@ -31,8 +31,8 @@
                     <div class="user-options dropdown-box">
                         <div class="drop-content basic">
                             <ul>
-                                <li><a href=""><i class="fa fa-lock" aria-hidden="true"></i> 锁屏</a></li>
-                                <li><a href="pages_sign-in.html"><i class="fa fa-sign-out" aria-hidden="true"></i> 退出</a></li>
+                                <li><a href="wx_update_pwd.html"><i class="fa fa-lock" aria-hidden="true"></i> 修改密码</a></li>
+                                <li><a href="pages_sign-in.html"><i class="fa fa-sign-out" aria-hidden="true"></i> 退　　出</a></li>
                             </ul>
                         </div>
                     </div>
@@ -93,12 +93,38 @@
                 <div class="content-header">
                     <div class="leftside-content-header">
                         <ul class="breadcrumbs">
-                            <li><i class="fa fa-home" aria-hidden="true"></i><a href="#">首页</a></li>
+                            <li><i class="fa fa-map-marker font18" aria-hidden="true"></i><a href="#">修改密码</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="row animated fadeInUp">
-                    
+                <div class="row animated fadeInUp p-md col-md-12 col-lg-6">
+                    <div class="panel">
+                        <div class="panel-content">
+                            <form>
+                                <div class="form-group">
+                                    <div class="input-group mt-sm mb-sm">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" class="form-control" maxlength="50" placeholder="原密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mt-sm mb-sm">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" class="form-control" maxlength="50" placeholder="新密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mt-sm mb-sm">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" class="form-control" maxlength="50" placeholder="再次输入">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">保 存</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <a href="#" class="scroll-to-top"><i class="fa fa-angle-double-up"></i></a>
             </div>
