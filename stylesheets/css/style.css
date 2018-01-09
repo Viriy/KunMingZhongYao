@@ -2213,9 +2213,9 @@ html.error-404 body{
 
 @media only screen and (max-width:767px){
 
-.page-header,.page-header .leftside-header .toggle-left-sidebar,.page-header .leftside-header .logo,.page-header .rightside-header{height: 42px}
-.page-header,.page-header a.fa,.page-header h1,.page-header .leftside-header .toggle-left-sidebar{line-height:40px}
-.page-header .t_icon{padding:0 15px;height:40px}
+.page-header,.page-header .leftside-header .toggle-left-sidebar,.page-header .leftside-header .logo,.page-header .rightside-header{height: 44px}
+.page-header,.page-header a.fa,.page-header h1,.page-header .leftside-header .toggle-left-sidebar{line-height:44px}
+.page-header .t_icon{padding:0 15px;height:44px}
 .dropdown-box{line-height: 26px}
 
 	.panel{margin-bottom:8px}
