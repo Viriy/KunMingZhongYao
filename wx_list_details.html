@@ -137,8 +137,15 @@
         <script src="javascripts/template-script.min.js"></script>
         <script type="text/javascript">
         $(function() {
+            var $btnTop=1;
             $(".btn_top").click(function(){
-                $(this).toggleClass("c_yellow")
+                if ($btnTop) {
+                    $(this).addClass("c_yellow");
+                    $btnTop=0
+                }else{
+                    $(this).removeClass("c_yellow");
+                    $btnTop=1
+                }
             })
         })
         </script>
