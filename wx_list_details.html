@@ -17,8 +17,8 @@
         <div class="page-header">
             <h1 class="font18 tc visible-xs">详情</h1>
             <div class="leftside-header">
-                <a href="index.html" class="logo hidden-xs"></a>
                 <a href="javascript:history.go(-1);" class="fa fa-angle-left t_icon visible-xs pa t0 l0 font30 white tc"></a>
+                <a href="index.html" class="logo hidden-xs"></a>
             </div>
             <div class="rightside-header hidden-xs">
                 <div class="header-middle"></div>
@@ -101,9 +101,15 @@
                     <div class="panel">
                         <div class="panel-content">
                             <div class="edit_wrap font14 tc color222 grey999" flex="box:mean">
-                                <a class="btn_top" href="javascript:;" alt="点击置顶" title="点击置顶"><i class="fa fa-lightbulb-o font20 mgr8"></i>置顶</a>
-                                <a class="c_bule" href="" alt="编辑" title="编辑"><i class="fa fa-pencil-square-o font20 mgr8"></i>编辑</a>
-                                <a class="red" href="" alt="删除" title="删除"><i class="fa fa-remove font20 mgr8"></i>删除</a>
+                                <a class="btn_top" href="javascript:;" alt="点击置顶" title="点击置顶">
+                                    <i class="fa fa-lightbulb-o font20 mgr8"></i><span>置顶</span>
+                                </a>
+                                <a class="c_bule" href="http://www.baidu.com" alt="编辑" title="编辑">
+                                    <i class="fa fa-pencil-square-o font20 mgr8"></i><span>编辑</span>
+                                </a>
+                                <a class="red" href="" alt="删除" title="删除">
+                                    <i class="fa fa-remove font20 mgr8"></i><span>删除</span>
+                                </a>
                             </div>
                             <ul class="list_txt">
                                 <li flex="main:justify">
@@ -137,14 +143,14 @@
         <script src="javascripts/template-script.min.js"></script>
         <script type="text/javascript">
         $(function() {
-            var $btnTop=1;
-            $(".btn_top").click(function(){
+            var $btnTop = 1;
+            $(".btn_top").click(function() {
                 if ($btnTop) {
                     $(this).addClass("c_yellow");
-                    $btnTop=0
-                }else{
+                    $btnTop = 0
+                } else {
                     $(this).removeClass("c_yellow");
-                    $btnTop=1
+                    $btnTop = 1
                 }
             })
         })

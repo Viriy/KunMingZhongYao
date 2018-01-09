@@ -147,4 +147,5 @@ a.panel{display: block}
 /*details*/
 .list_txt li{margin-bottom: 3px;background: #f7f7f7;padding:6px 8px}
 .list_txt li p{text-align: right;margin-left:15px}
-.edit_wrap a{line-height:34px;padding-bottom:5px;cursor: pointer}
+.edit_wrap{margin:-12px -12px 0}
+.edit_wrap a{line-height:50px;cursor: pointer}

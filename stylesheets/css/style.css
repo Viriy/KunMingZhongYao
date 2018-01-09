@@ -301,7 +301,9 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b57a0', endC
     z-index:1035;
   }
 .page-header .leftside-header{
-  display:inline-block}
+	position: absolute;
+	top: 0;left: 0;
+  display:inline-block;height: 100%}
 .page-header .leftside-header .logo{
   width:260px;
   height:50px;
