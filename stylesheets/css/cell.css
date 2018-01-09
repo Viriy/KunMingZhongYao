@@ -19,6 +19,8 @@ em,i{font-style:normal}
 
 a:hover, a:focus{color:inherit}
 .tc{text-align:center}
+.tl{text-align:left !important}
+.tr{text-align:right !important}
 .icon,.tab_wrap .tab_link a{
   font-family:"kzyfont";
   font-style:normal;
@@ -69,7 +71,7 @@ h1,.h1,h2,.h2,h3,.h3{margin:0}
 .mb140{margin-bottom:1.866667rem}
 .body_texture{background:url("../../images/cell/bot_bg.png") bottom no-repeat,url('../../images/cell/texture.jpg') center repeat-y;background-size:100%}
 article{max-width:540px}
-.i{display:inline-block}
+.i,.squareimg span{display:inline-block}
 
 .ellipsis,.tcm_info .txt span,.txtinfo_wrap .item p,.tit_txt em{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ellipsis2,.ellipsis3{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
@@ -155,3 +157,11 @@ a.panel{display: block}
 .edit_wrap a{line-height:52px;cursor: pointer}
 a span{vertical-align: middle}
 textarea{resize:vertical}
+
+.squareimg img{width: 100%}
+
+.fadeInUp{float: initial}
+
+@media (min-width: 1200px){
+.fadeInUp{margin-left: auto;margin-right: auto}
+}
