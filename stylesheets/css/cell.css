@@ -128,6 +128,7 @@ input[disabled]{background:#e5e2df;color:#666}
 
 /*find pwd*/
 .font30{font-size:30px}
+.font24{font-size:24px}
 .font20{font-size:20px}
 .font18{font-size:18px}
 .font16{font-size:16px}
@@ -148,4 +149,5 @@ a.panel{display: block}
 .list_txt li{margin-bottom: 3px;background: #f7f7f7;padding:12px 10px;line-height:20px}
 .list_txt li p{text-align: right;margin-left:15px}
 .edit_wrap{margin:-12px -12px 0}
-.edit_wrap a{line-height:50px;cursor: pointer}
+.edit_wrap a{line-height:52px;cursor: pointer}
+.edit_wrap a span{vertical-align: middle}
