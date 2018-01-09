@@ -1114,8 +1114,7 @@ blockquote{
   line-height:40px;
   padding:0 9pt;
   background:#ececec}
-.btn:hover{
-  background:#ccc}
+.btn:hover{border-color:transparent}
 .btn.btn-wide{
   min-width:120px}
 .btn.btn-o{
@@ -1257,6 +1256,7 @@ blockquote{
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* MODALS*/
 /*================================================*/
+.modal .modal-content{overflow: hidden;}
 .modal .modal-content .modal-header.state{
   padding:10px 15px}
 .modal .modal-content .modal-header.state i{
@@ -2000,8 +2000,9 @@ label.error{
   display:block;
   font-size:16px;
   color:#222}
-.color222,.color222 a,.list-no-img .title{color: #222}
-.grey999,.grey999 a,.list-no-img .subtitle,.list_txt p{color: #999}
+.color222,.color222 a,.list-no-img .title,.list_txt >li> em,.list_txt >li> h3{color: #222}
+.grey999,.grey999 a,.list-no-img .subtitle{color: #999}
+.color666,.list_txt{color: #666}
 .widget-list.list-left-element .text .subtitle{
   color:#999}
 .widget-list.list-left-element.list-sm a{
@@ -2222,7 +2223,8 @@ html.error-404 body{
   background:#ececec}
 
 @media only screen and (max-width:767px){
-/* .f_search{position: fixed;right: 30px;bottom: 74px;width:40px;height:40px;line-height:40px;background:#4988c9} */
+
+.modal-dialog.modal-sm{width: 75%;margin-left: auto;margin-right: auto}
 
 .page-header #user-headerbox .dropdown-box{margin-top: 6px}
 
@@ -2232,7 +2234,7 @@ html.error-404 body{
 .dropdown-box{line-height: 26px}
 
 	.panel{margin-bottom:8px}
-	.btn-primary{width: 100%}
+	.btn{width: 100%}
   .error-number{
     font-size:90px;
     font-size:6.92308rem;

@@ -127,6 +127,7 @@ input[disabled]{background:#e5e2df;color:#666}
 }
 
 /*find pwd*/
+a:focus,input:focus,button:focus{outline: none}
 .font30{font-size:30px}
 .font24{font-size:24px}
 .font22{font-size:22px}
@@ -149,7 +150,7 @@ a.panel{display: block}
 .page-header .search_link input{height: 32px;border:none}
 /*details*/
 .list_txt li{margin-bottom: 3px;background: #f7f7f7;padding:12px 10px;line-height:20px}
-.list_txt li p{text-align: right;margin-left:15px}
+.list_txt >li >p{text-align: right;margin-left:15px}
 .edit_wrap{margin:-12px -12px 0}
 .edit_wrap a{line-height:52px;cursor: pointer}
-.edit_wrap a span{vertical-align: middle}
+a span{vertical-align: middle}
