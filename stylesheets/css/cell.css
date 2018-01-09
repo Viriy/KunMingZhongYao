@@ -145,7 +145,7 @@ a.panel{display: block}
 .page-header .search_link{margin:6px 20px 6px 50px}
 .page-header .search_link input{height: 32px;border:none}
 /*details*/
-.list_txt li{margin-bottom: 3px;background: #f7f7f7;padding:6px 8px}
+.list_txt li{margin-bottom: 3px;background: #f7f7f7;padding:12px 10px;line-height:20px}
 .list_txt li p{text-align: right;margin-left:15px}
 .edit_wrap{margin:-12px -12px 0}
 .edit_wrap a{line-height:50px;cursor: pointer}
