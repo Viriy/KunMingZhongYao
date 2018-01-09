@@ -139,4 +139,4 @@ a.panel{display: block}
 .search_link .btn{line-height:34px;height:34px}
 .search_link,.search_link .form-control[disabled]{cursor: pointer}
 .search_link .form-control[disabled]{background: #fff}
-.page-header .search_link{margin:6px 20px 6px 50px}
+.page-header .search_link{margin:5px 20px 6px 50px}
