@@ -235,6 +235,8 @@ html.right-sidebar-opened .right-sidebar{
     margin:-30px -30px 30px -30px;
   }
 }
+
+
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* MOBIL VERSION*/
 /*================================================*/
@@ -248,7 +250,7 @@ html.right-sidebar-opened .right-sidebar{
     padding:10px;
   }
   html .page-body .content-header{
-    margin:0 -10px 10px -10px;
+    margin:-10px -10px 10px -10px;
   }
   html .page-body .left-sidebar{
     bottom:0;
@@ -276,6 +278,7 @@ html.right-sidebar-opened .right-sidebar{
   html.left-sidebar-open .left-sidebar{
     margin-left:0;
   }
+
 }
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* PAGE HEADER */
@@ -2209,6 +2212,12 @@ html.error-404 body{
   background:#ececec}
 
 @media only screen and (max-width:767px){
+
+.page-header,.page-header .leftside-header .toggle-left-sidebar,.page-header .leftside-header .logo,.page-header .rightside-header{height: 42px}
+.page-header,.page-header a.fa,.page-header h1,.page-header .leftside-header .toggle-left-sidebar{line-height:40px}
+.page-header .t_icon{padding:0 15px;height:40px}
+.dropdown-box{line-height: 26px}
+
 	.panel{margin-bottom:8px}
 	.btn-primary{width: 100%}
   .error-number{
