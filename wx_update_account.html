@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>修改密码</title>
+    <title>修改账号信息</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/animate.css/animate.css">
@@ -15,7 +15,7 @@
 <body>
     <div class="wrap">
         <div class="page-header">
-            <h1 class="font18 tc visible-xs">修改密码</h1>
+            <h1 class="font18 tc visible-xs">修改账号信息</h1>
             <div class="leftside-header">
                 <a href="index.html" class="logo hidden-xs"></a>
                 <a href="javascript:history.go(-1);" class="fa fa-angle-left t_icon visible-xs pa t0 l0 font30 white tc"></a>
@@ -89,46 +89,68 @@
                     </div>
                 </div>
             </div>
-            <!--Start 移动端保存按钮 -->
+            <!--Start 移动端发布按钮 -->
             <div class="f_btn visible-xs">
-                <button type="submit" class="btn btn-primary">保 存</button>
+                <button type="submit" class="btn btn-primary">发 布</button>
             </div>
-            <!--End 移动端保存按钮 -->
+            <!--End 移动端发布按钮 -->
             <div class="content">
                 <div class="content-header hidden-xs">
                     <div class="leftside-content-header">
                         <ul class="breadcrumbs">
-                            <li><i class="fa fa-map-marker font18" aria-hidden="true"></i><a href="#">修改密码</a></li>
+                            <li><i class="fa fa-map-marker font18" aria-hidden="true"></i><a href="#">修改账号信息</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="row animated fadeInUp col-md-12 col-lg-6">
+                <div class="row animated fadeInUp col-md-12 col-lg-8">
                     <div class="panel">
                         <div class="panel-content">
-                            <form>
+                            <form class="form-horizontal">
                                 <div class="form-group">
-                                    <div class="input-group mt-sm mb-sm">
-                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" maxlength="50" placeholder="原密码">
+                                    <label for="" class="col-sm-2 control-label">登录账号</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="" value="Viriy">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="input-group mt-sm mb-sm">
-                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" maxlength="50" placeholder="新密码">
+                                    <label for="" class="col-sm-2 control-label">用 户 名</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="" value="Viriy">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="input-group mt-sm mb-sm">
-                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" maxlength="50" placeholder="再次输入">
+                                    <label for="" class="col-xs-4 col-sm-2 control-label mgt7">性　　别</label>
+                                    <div class="col-xs-8 col-sm-4" flex="box:mean">
+                                        <div class="radio radio-custom radio-info">
+                                            <input type="radio" id="man" name="gender" value="" checked>
+                                            <label for="man">男</label>
+                                        </div>
+                                        <div class="radio radio-custom radio-info">
+                                            <input type="radio" id="woman" name="gender" value="">
+                                            <label for="woman">女</label>
+                                        </div>
                                     </div>
                                 </div>
-                                <!--Start PC端保存按钮 -->
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label">联系电话</label>
+                                    <div class="col-sm-10">
+                                        <input type="tel" class="form-control" id="" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="" value="">
+                                    </div>
+                                </div>
+                                <!--Start PC端发布按钮 -->
                                 <div class="form-group hidden-xs">
-                                    <button type="submit" class="btn btn-primary">保 存</button>
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary">保 存</button>
+                                    </div>
                                 </div>
-                                <!--End PC端保存按钮 -->
+                                <!--End PC端发布按钮 -->
                             </form>
                         </div>
                     </div>

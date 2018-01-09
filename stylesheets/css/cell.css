@@ -154,3 +154,4 @@ a.panel{display: block}
 .edit_wrap{margin:-12px -12px 0}
 .edit_wrap a{line-height:52px;cursor: pointer}
 a span{vertical-align: middle}
+textarea{resize:vertical}

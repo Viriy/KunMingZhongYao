@@ -247,8 +247,9 @@ html.right-sidebar-opened .right-sidebar{
   }
   html .page-body .content{
     margin-left:0px;
-    padding:54px 10px 10px;
+    padding:10px;
   }
+  .page-header ~ .page-body .content{padding-top:56px}
   html .page-body .content-header{
     margin:-10px -10px 10px -10px;
   }
@@ -1493,6 +1494,7 @@ form button.btn{
 .radio-custom input[type="radio"]:disabled + label:before{
   background-color:#fff}
 .radio-custom label{
+width: 100%;
   cursor:pointer;
   display:inline-block;
   padding-left:30px !important;
@@ -2223,7 +2225,7 @@ html.error-404 body{
   background:#ececec}
 
 @media only screen and (max-width:767px){
-
+.mgt7{margin-top: 7px}
 .f_btn{position: fixed;bottom: 0;left: 0;width: 100%;z-index: 999}
 html .page-body .f_btn~.content{padding-bottom: 45px}
 .f_btn .btn{border-radius:0;height:45px}
