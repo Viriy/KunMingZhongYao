@@ -1998,8 +1998,8 @@ label.error{
   display:block;
   font-size:16px;
   color:#222}
-.color222,.list-no-img .title{color: #222}
-.grey999,.list-no-img .subtitle{color: #999}
+.color222,.color222 a,.list-no-img .title{color: #222}
+.grey999,.grey999 a,.list-no-img .subtitle,.list_txt p{color: #999}
 .widget-list.list-left-element .text .subtitle{
   color:#999}
 .widget-list.list-left-element.list-sm a{
