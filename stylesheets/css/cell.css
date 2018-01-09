@@ -10,7 +10,7 @@ a,body,button,input,select,textarea,em,span,b,h1,h2,h3,h4,h5,div.layui-m-layerma
   url('kzyfont.svg?t=1514515773492#kzyfont') format('svg'); /* iOS 4.1- */
 }
 
-/* body{font-size:.32rem} */
+body{font-size:.32rem}
 ul,ol,li{list-style:none;margin:0;padding:0}
 p{margin:0}
 a:focus,a:hover{text-decoration:none}
