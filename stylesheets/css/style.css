@@ -325,7 +325,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b57a0', endC
 .page-header .rightside-header{
   float:right;
   height:50px;
-  line-height: initial;
+  line-height: 26px;
   margin-right:5px;
 	padding:0 15px}
 .page-header .rightside-header .header-middle{
@@ -712,8 +712,6 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b57a0', endC
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* LEFT SIDEBAR NAVIGATION*/
 /*================================================*/
-ul#main-nav{
-  margin-right:4px}
 ul#main-nav > li{
   border-bottom:1px solid #2a2a2a}
 ul#main-nav > li.active-item > a{
@@ -1774,6 +1772,7 @@ label.error{
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* TABLES*/
 /*================================================*/
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{vertical-align: initial}
 .table > thead > tr > td.success,.table > tbody > tr > td.success,.table > tfoot > tr > td.success,.table > thead > tr > th.success,.table > tbody > tr > th.success,.table > tfoot > tr > th.success,.table > thead > tr.success > td,.table > tbody > tr.success > td,.table > tfoot > tr.success > td,.table > thead > tr.success > th,.table > tbody > tr.success > th,.table > tfoot > tr.success > th{
   background:#88b93c;
   color:#FFF}
@@ -1961,6 +1960,7 @@ label.error{
 .widget-list.list-to-do ul label{
   margin-bottom:0px}
 .widget-list.list-left-element li{
+	padding: 0;
   background:#f7f7f7;
   margin-bottom:3px}
 .widget-list.list-left-element li:last-child{
@@ -1969,7 +1969,7 @@ label.error{
   background:#ececec}
 .widget-list.list-left-element a{
   display:table;
-  padding:6px 8px}
+  padding:2px}
 .widget-list.list-left-element .left-element,.widget-list.list-left-element .text{
   display:table-cell;
   vertical-align:middle}
@@ -1983,7 +1983,7 @@ label.error{
   width:100%;
   border-radius:3px}
 .widget-list.list-left-element .text{
-  width:90%;
+  width:82%;
   padding-left:12px}
 .widget-list.list-left-element .text .title{
   display:block;
@@ -2209,6 +2209,7 @@ html.error-404 body{
   background:#ececec}
 
 @media only screen and (max-width:767px){
+	.panel{margin-bottom:8px}
 	.btn-primary{width: 100%}
   .error-number{
     font-size:90px;

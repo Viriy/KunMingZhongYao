@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>发布通知公告</title>
+    <title>表格—昆中药中药资源平台</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/animate.css/animate.css">
     <link rel="stylesheet" href="stylesheets/css/style.css">
-    <link rel="stylesheet" href="stylesheets/css/cell.css">
 </head>
 
 <body>
     <div class="wrap">
         <div class="page-header">
-            <h1 class="font20 tc visible-xs">发布通知公告</h1>
             <div class="leftside-header">
-                <a href="index.html" class="logo hidden-xs"></a>
-                <a href="javascript:history.go(-1);" class="fa fa-angle-left t_icon visible-xs pa t0 l0 font30 white tc"></a>
+                <a href="index.html" class="logo"></a>
+                <div id="menu-toggle" class="visible-xs toggle-left-sidebar" data-toggle-class="left-sidebar-open" data-target="html">
+                    <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+                </div>
             </div>
-            <div class="rightside-header hidden-xs">
+            <div class="rightside-header">
                 <div class="header-middle"></div>
                 <div class="header-section" id="user-headerbox">
                     <div class="user-header-wrap">
@@ -31,7 +31,7 @@
                     <div class="user-options dropdown-box">
                         <div class="drop-content basic">
                             <ul>
-                                <li><a href="wx_update_pwd.html"><i class="fa fa-lock" aria-hidden="true"></i> 发布通知公告</a></li>
+                                <li><a href="wx_update_pwd.html"><i class="fa fa-lock" aria-hidden="true"></i> 修改密码</a></li>
                                 <li><a href="pages_sign-in.html"><i class="fa fa-sign-out" aria-hidden="true"></i> 退　　出</a></li>
                             </ul>
                         </div>
@@ -93,56 +93,57 @@
                 <div class="content-header">
                     <div class="leftside-content-header">
                         <ul class="breadcrumbs">
-                            <li><i class="fa fa-map-marker font18" aria-hidden="true"></i><a href="#">发布通知公告</a></li>
+                            <li><i class="fa fa-home" aria-hidden="true"></i><a href="#">首页</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="row animated fadeInUp p-md col-md-12">
+                <div class="animated fadeInUp">
                     <div class="panel">
-                        <div class="panel-content font12">
-                            <form class="form-horizontal">
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>公告类型</label>
-                                    <div class="col-sm-10">
-                                        <select name="" id="select2-example-basic" class="form-control">
-                                            <optgroup label="信息中心">
-                                                <option value="" label="通知公告">通知公告</option>
-                                                <option value="" label="最近开标结果">最近开标结果</option>
-                                            </optgroup>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>信息标题</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>来　　源</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>发 布 人</label>
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>发布日期</label>
-                                    <div class="col-sm-10">
-                                        <input type="date" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>内　　容</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" rows="3" placeholder="请输入" maxlength=""></textarea>
-                                    </div>
-                                </div>
-                            </form>
+                        <div class="panel-content">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-hover table-bordered text-center">
+                                    <thead>
+                                        <tr>
+                                            <th>信息标题</th>
+                                            <th>公告类型</th>
+                                            <th>发布人</th>
+                                            <th>发布日期</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>推动高质量发展，“七个坚持”最重要</td>
+                                            <td>通知公告</td>
+                                            <td>管理员</td>
+                                            <td>2017-12-21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>推动高质量发展，“七个坚持”最重要</td>
+                                            <td>通知公告</td>
+                                            <td>管理员</td>
+                                            <td>2017-12-21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>推动高质量发展，“七个坚持”最重要</td>
+                                            <td>通知公告</td>
+                                            <td>管理员</td>
+                                            <td>2017-12-21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>推动高质量发展，“七个坚持”最重要</td>
+                                            <td>通知公告</td>
+                                            <td>管理员</td>
+                                            <td>2017-12-21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>推动高质量发展，“七个坚持”最重要</td>
+                                            <td>通知公告</td>
+                                            <td>管理员</td>
+                                            <td>2017-12-21</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
