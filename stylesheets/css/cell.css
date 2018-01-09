@@ -11,14 +11,14 @@ a,body,button,input,select,textarea,em,span,b,h1,h2,h3,h4,h5,div.layui-m-layerma
 }
 
 body{font-size:.32rem}
-.fixed body{font-size: 12px}
+.fixed body{font-size:12px}
 ul,ol,li{list-style:none;margin:0;padding:0}
 p{margin:0}
 a:focus,a:hover{text-decoration:none}
 em,i{font-style:normal}
 
 a:hover, a:focus{color:inherit}
-.tc{text-align: center}
+.tc{text-align:center}
 .icon,.tab_wrap .tab_link a{
   font-family:"kzyfont";
   font-style:normal;
@@ -45,7 +45,7 @@ a:hover, a:focus{color:inherit}
 .color{color:#3c3938}
 .colorlight{color:#66615d}
 .orange{color:#e09221}
-.white,.white a,.brown_bg,.tab_wrap .tab_link .active a{color:#fff}
+.white,.white a,.brown_bg,.tab_wrap .tab_link .active a,.white:hover{color:#fff}
 .red{color:#e53f1f}
 .grey{color:#888}
 .brown,.brown a,.txtinfo_wrap em{color:#774216}
@@ -54,10 +54,10 @@ a:hover, a:focus{color:inherit}
 html,body{min-height:100%}
 h1,.h1,h2,.h2,h3,.h3{margin:0}
 .pr{position:relative}
-.pa{position: absolute}
-.t0{top: 0}
-.l0{left: 0}
-.r0{right: 0}
+.pa{position:absolute}
+.t0{top:0}
+.l0{left:0}
+.r0{right:0}
 .bold,.txtinfo_wrap em{font-weight:700}
 .m_auto,article{margin-left:auto;margin-right:auto}
 .mlr75{margin-left:1rem;margin-right:1rem}
@@ -105,7 +105,7 @@ input[disabled]{background:#e5e2df;color:#666}
 .tab_wrap .tab-content{margin:0 .4rem 1.6rem;padding:.533333rem .3rem;border:.04rem solid #96753b;border-radius:.08rem;background:#e9e3dd}
 
 .txtinfo_wrap .item:not(:last-child){margin-right:.3rem}
-.txtinfo_wrap li{margin-bottom: 0.2rem}
+.txtinfo_wrap li{margin-bottom:0.2rem}
 .txtinfo_wrap li:first-child .item{background:url("../../images/cell/bor_b1.gif") bottom no-repeat,url('../../images/cell/bor_t1.gif') no-repeat;background-size:100%;padding:.16rem .12rem}
 .txtinfo_wrap li:not(:first-child){background:url("../../images/cell/bor_b2.gif") bottom no-repeat,url('../../images/cell/bor_t2.gif') no-repeat;background-size:100%;padding:.16rem .12rem}
 
@@ -128,8 +128,15 @@ input[disabled]{background:#e5e2df;color:#666}
 
 /*find pwd*/
 .font30{font-size:30px}
-.font20{font-size: 20px}
-.font18{font-size: 18px}
-.font16{font-size: 16px}
-.font14{font-size: 14px}
-.font12{font-size: 12px}
+.font20{font-size:20px}
+.font18{font-size:18px}
+.font16{font-size:16px}
+.font14{font-size:14px}
+.font12{font-size:12px}
+
+/*list*/
+a.panel{display: block}
+.search_link .btn{line-height:34px;height:34px}
+.search_link,.search_link .form-control[disabled]{cursor: pointer}
+.search_link .form-control[disabled]{background: #fff}
+.page-header .search_link{margin:6px 20px 6px 50px}
