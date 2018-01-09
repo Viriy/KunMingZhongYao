@@ -146,10 +146,10 @@
             var $btnTop = 1;
             $(".btn_top").click(function() {
                 if ($btnTop) {
-                    $(this).addClass("c_yellow");
+                    $(this).addClass("c_yellow").find("span").text("已置顶");
                     $btnTop = 0
                 } else {
-                    $(this).removeClass("c_yellow");
+                    $(this).removeClass("c_yellow").find("span").text("置顶");
                     $btnTop = 1
                 }
             })
