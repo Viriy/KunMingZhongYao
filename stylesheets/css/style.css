@@ -895,6 +895,7 @@ h6{
 /* BLOCKQUOTES*/
 /*================================================*/
 blockquote{
+  padding: 6px 20px;
   font-size:14px;
   font-size:1.07692rem}
 
@@ -1998,6 +1999,9 @@ label.error{
 .widget-list.list-left-element .text{
   width:82%;
   padding-left:12px}
+  .widget-list.list-left-element .title,.list-no-img .title{
+  margin-bottom: 5px;
+  }
 .widget-list.list-left-element .text .title{
   display:block;
   font-size:16px;
@@ -2232,7 +2236,7 @@ html.error-404 body{
 
 .mgt7{margin-top: 7px}
 .f_btn{position: fixed;bottom: 0;left: 0;width: 100%;z-index: 999}
-html .page-body .f_btn~.content{padding-bottom: 45px}
+html .page-body .f_btn~.content{padding-bottom:60px}
 .f_btn .btn{border-radius:0;height:45px;line-height: 45px}
 
 .modal-dialog.modal-sm{width: 75%;margin-left: auto;margin-right: auto}
@@ -3527,6 +3531,8 @@ html.margin-padding .box-padding .box-in{
   background-color:rgba(0, 0, 0, 0.6) !important}
 
 @media only screen and (max-width:767px){
+  .ui-pnotify-closer,.ui-pnotify-sticker{visibility: visible !important}
+
   .ui-pnotify.stack-bar-bottom{
     margin-left:0px;
     width:100% !important;

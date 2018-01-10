@@ -107,8 +107,8 @@
                         <div class="panel-content font12">
                             <form class="form-horizontal">
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>公告类型</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>公告类型</label>
+                                    <div class="col-sm-9 col-md-10">
                                         <select name="" id="" class="form-control">
                                             <optgroup label="信息中心">
                                                 <option value="" label="通知公告">通知公告</option>
@@ -118,39 +118,50 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>信息标题</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>信息标题</label>
+                                    <div class="col-sm-9 col-md-10">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>来　　源</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>来　　源</label>
+                                    <div class="col-sm-9 col-md-10">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>发 布 人</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>发 布 人</label>
+                                    <div class="col-sm-9 col-md-10">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>发布日期</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>发布日期</label>
+                                    <div class="col-sm-9 col-md-10">
                                         <input type="date" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label"><span class="required" aria-required="true">*</span>内　　容</label>
-                                    <div class="col-sm-10">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>上传图片</label>
+                                    <div class="col-sm-9 col-md-10">
+                                        <!--    照片添加    -->
+                                        <div class="z_photo clearfix" flex>
+                                            <div class="z_file tc">
+                                                <input type="file" name="file" id="file1" class="file" accept="image/*" multiple onchange="imgChange('z_photo','z_file');">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 col-md-2 control-label"><span class="required" aria-required="true">*</span>内　　容</label>
+                                    <div class="col-sm-9 col-md-10">
                                         <textarea id="textarea" class="form-control" rows="5" placeholder="请输入" maxlength=""></textarea>
                                     </div>
                                 </div>
                                 <!--Start PC端发布按钮 -->
                                 <div class="form-group hidden-xs">
-                                    <div class="col-sm-2"></div>
-                                    <div class="col-sm-10">
+                                    <div class="col-sm-3 col-md-2"></div>
+                                    <div class="col-sm-9 col-md-10">
                                         <button type="submit" class="btn btn-primary">发 布</button>
                                     </div>
                                 </div>
@@ -164,6 +175,44 @@
         </div>
         <script src="javascripts/jquery.min.js"></script>
         <script src="javascripts/template-script.min.js"></script>
+        <script type="text/javascript">
+        //上传图片
+        function imgChange(obj1, obj2) {
+            //获取点击的文本框
+            var file = document.getElementById("file1");
+            //存放图片的父级元素
+            var imgContainer = document.getElementsByClassName(obj1)[0];
+            //获取的图片文件
+            var fileList = file.files;
+            //文本框的父级元素
+            var input = document.getElementsByClassName(obj2)[0];
+            var imgArr = [];
+            //遍历获取到得图片文件
+            for (var i = 0; i < fileList.length; i++) {
+                var imgUrl = window.URL.createObjectURL(file.files[i]);
+                imgArr.push(imgUrl);
+                var img = document.createElement("img");
+                img.setAttribute("src", imgArr[i]);
+                var imgAdd = document.createElement("div");
+                imgAdd.setAttribute("class", "z_addImg");
+                imgAdd.appendChild(img);
+                imgContainer.appendChild(imgAdd);
+                squareImg();
+            };
+            imgRemove();
+        };
+
+        function imgRemove() {
+            var imgList = document.getElementsByClassName("z_addImg");
+            for (var j = 0; j < imgList.length; j++) {
+                imgList[j].index = j;
+                imgList[j].onclick = function() {
+                    var t = this;
+                    t.style.display = "none";
+                }
+            };
+        };
+        </script>
 </body>
 
 </html>
