@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/animate.css/animate.css">
     <link rel="stylesheet" href="stylesheets/css/style.css">
+    <link rel="stylesheet" href="vendor/pnotify/pnotify.custom.css">
+    <link rel="stylesheet" href="stylesheets/css/cell.css">
 </head>
 
 <body>
@@ -98,13 +100,27 @@
                     </div>
                 </div>
                 <div class="row animated fadeInUp">
-                    
                 </div>
                 <a href="#" class="scroll-to-top"><i class="fa fa-angle-double-up"></i></a>
             </div>
         </div>
         <script src="javascripts/jquery.min.js"></script>
         <script src="javascripts/template-script.min.js"></script>
+        <script src="vendor/pnotify/pnotify.custom.js"></script>
+        <script type="text/javascript">
+        $(function() {
+            PNotify.prototype.options.styling = "fontawesome";
+            var stack_bottomright = {"dir1": "up","dir2": "left","firstpos1": 15,"firstpos2": 15};
+            new PNotify({
+                title: '发布采购信息：2018年2月采购清单',
+                text: "<div flex='box:mean'><p><em>阿司匹林：</em><span>1200公斤</span></p><p><em>艾炭：</em><span>1800公斤</span></p></div><div flex='box:mean'><p><em>百合：</em><span>5000公斤</span></p><p><em>白扁豆：</em><span>1200公斤</span></p></div>",
+                type: 'info',
+                width:'380px',
+                addclass: 'stack-bottomright',
+                stack: stack_bottomright
+            });
+        })
+        </script>
 </body>
 
 </html>

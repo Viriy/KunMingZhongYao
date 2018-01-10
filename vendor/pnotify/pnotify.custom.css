@@ -165,7 +165,8 @@ body > .ui-pnotify-modal-overlay {
     .ui-pnotify-mobile-able.ui-pnotify {
         position: fixed;
         top: 0;
-        right: 0;
+        left: 10px !important;
+        right:10px !important;
         left: 0;
         width: auto !important;
         font-size: 1.2em;
@@ -180,11 +181,11 @@ body > .ui-pnotify-modal-overlay {
         box-shadow: none;
         border-bottom-width: 5px;
     }
-    .ui-pnotify-mobile-able .ui-pnotify-container {
+    /* .ui-pnotify-mobile-able .ui-pnotify-container {
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         border-radius: 0;
-    }
+    } */
     /* Alternate stack initial positioning. */
     .ui-pnotify-mobile-able.ui-pnotify.stack-topleft, .ui-pnotify-mobile-able.ui-pnotify.stack-bottomleft {
         left: 0;
@@ -200,6 +201,8 @@ body > .ui-pnotify-modal-overlay {
         border-top-width: 5px;
         border-bottom-width: 1px;
     }
+
+    .ui-pnotify .ui-pnotify-container{padding:10px 15px 10px 65px}
 
 }
 .ui-pnotify.ui-pnotify-nonblock-fade {

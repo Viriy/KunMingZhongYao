@@ -140,6 +140,7 @@ a:focus,input:focus,button:focus{outline: none}
 .font14,.list_txt em{font-size:14px}
 .font12{font-size:12px}
 .mgr8{margin-right:8px}
+.mgr5{margin-right:5px}
 .c_bule,a.c_bule{color:#4988c9}
 .c_yellow,a.c_yellow{color:#ffc240}
 
@@ -159,6 +160,7 @@ a span{vertical-align: middle}
 textarea{resize:vertical}
 
 .squareimg img{width: 100%}
+.pdlr13{padding-left: 13px;padding-right: 13px}
 
 .fadeInUp{float: initial}
 

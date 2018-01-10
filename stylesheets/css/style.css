@@ -3446,8 +3446,8 @@ html.margin-padding .box-padding .box-in{
   width:50px;
   position:absolute;
   left:5px;
-  top:15px;
-  margin:0;
+  top:50%;
+  margin:-20px 0 0;
   text-align:center}
 .ui-pnotify .ui-pnotify-container .ui-pnotify-icon > span{
   height:40px;
@@ -3463,6 +3463,8 @@ html.margin-padding .box-padding .box-in{
   border:2px solid #FFF;
   border-radius:50%}
 .ui-pnotify .ui-pnotify-container .ui-pnotify-title{
+  line-height: 22px;
+  padding-right:30px;
   font-size:16px;
   font-size:1.23077rem;
   font-weight:bold}
