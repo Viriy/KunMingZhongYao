@@ -533,7 +533,9 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b57a0', endC
   border-radius:50%}
 
 @media only screen and (max-width:767px){
-  .page-header .rightside-header{
+  .page-header .rightside-header{position: absolute;
+    top: 0;
+    right: 0;
     text-align:right;
 	      padding:0 8px;
   }
@@ -1037,6 +1039,8 @@ blockquote{
   color:#fff}
 .panel .panel-header.panel-darker-2.border{
   border-color:#002d53}
+
+  .panel a{display: block}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* ACCORDIONS*/
