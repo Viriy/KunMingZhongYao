@@ -103,12 +103,28 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row animated fadeInUp col-md-12 col-lg-8">
+                <div class="row animated fadeInUp col-md-12 col-lg-6">
+                    <div class="panel ph-md">
+                        <ul class="link_wrap font14 color222 pr">
+                            <li>
+                                <a href="wx_publish.html"><i class="c_bule fa fa-gears font22 mgr10"></i>田间管理</a>
+                            </li>
+                            <li>
+                                <a href="wx_publish.html"><i class="c_bule fa fa-pagelines font24 mgr10"></i>采收加工</a>
+                            </li>
+                            <li>
+                                <a href="wx_publish.html"><i class="c_bule fa fa-recycle font22 mgr10"></i>中药材流通</a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="panel">
                         <div class="panel-content">
                             <div class="edit_wrap font15 tc color222 grey999" flex="box:mean">
                                 <a class="btn_top" href="javascript:;" alt="点击置顶" title="点击置顶">
                                     <i class="fa fa-lightbulb-o font22 mgr8"></i><span>置顶</span>
+                                </a>
+                                <a class="color-info btn_QR_code" href="javascript:;" alt="二维码" title="二维码" data-toggle="modal" data-target="#QR-code-modal">
+                                    <i class="fa fa-qrcode  font22 mgr8"></i><span>二维码</span>
                                 </a>
                                 <!--Start PC端编辑按钮 -->
                                 <a class="c_bule hidden-xs" href="wx_publish.html" alt="编辑" title="编辑">
@@ -149,11 +165,11 @@
                                 <li>
                                     <h3 class="font16 mb-sm">图　　片</h3>
                                     <div class="squareimg clearfix">
+                                        <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/show_bar.jpg" alt=""></span>
                                         <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/img.jpg" alt=""></span>
+                                        <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/show_bar.jpg" alt=""></span>
                                         <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/img.jpg" alt=""></span>
-                                        <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/img.jpg" alt=""></span>
-                                        <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/img.jpg" alt=""></span>
-                                        <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/img.jpg" alt=""></span>
+                                        <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/show_bar.jpg" alt=""></span>
                                         <span class="col-xs-4 col-sm-3 col-lg-2"><img src="images/cell/img.jpg" alt=""></span>
                                     </div>
                                 </li>
@@ -172,9 +188,8 @@
                                     <h3 class="font16 mb-sm">内容</h3>
                                     <div>
                                         <p>习近平新时代中国特色社会主义经济思想，是5年来推动我国经济发展实践的理论结晶，是中国特色社会主义政治经济学的最新成果，是党和国家十分宝贵的精神财富，必须长期坚持、不断丰富发展。”刚刚闭幕的中央经济工作会议，明确了以新发展理念为主要内容的习近平新时代中国特色社会主义经济思想，学懂弄通并贯彻好这一思想，是新时代推动我国经济高质量发展的基础和前提。如何正确理解这一思想的深刻内涵和重大意义？12月20日，本报记者第一时间采访了多位专家。</p>
+                                        <br>
                                         <p>坚持加强党对经济工作的集中统一领导</p>
-                                        <p>中央经济工作会议指出，我们坚持加强党对经济工作的集中统一领导，保证我国经济沿着正确方向发展。</p>
-                                        <p>“党的领导是中国特色社会主义制度的最大优势，是实现经济社会持续健康发展的根本政治保证。”中央党校经济学部主任韩保江说，党的十八大以来，面对世界经济复苏乏力、局部冲突和动荡频发、全球性问题加剧的外部环境，面对我国经济发展进入新常态等一系列深刻变化，我们坚持加强党对经济工作的集中统一领导，保证我国经济沿着正确方向前行，取得了改革开放和社会主义现代化建设的历史性成就。</p>
                                     </div>
                                 </li>
                             </ul>
@@ -195,6 +210,21 @@
                             <div class="modal-footer" flex="box:mean">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--二维码 Modal -->
+                <div class="modal fade" id="QR-code-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header state modal-primary">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="modal-small-label">二维码预览</h4>
+                            </div>
+                            <div class="modal-body tc grey999 font14">
+                                <img src="images/cell/Qr_code.png" alt="">
+                                <p>长按识别二维码</p>
                             </div>
                         </div>
                     </div>

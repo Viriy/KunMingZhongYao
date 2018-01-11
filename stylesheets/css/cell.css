@@ -57,7 +57,7 @@ a:hover, a:focus{color:inherit}
 
 html,body{min-height:100%}
 h1,.h1,h2,.h2,h3,.h3{margin:0}
-.pr{position:relative}
+.pr,.link_wrap li{position:relative}
 .pa{position:absolute}
 .t0{top:0}
 .l0{left:0}
@@ -165,7 +165,7 @@ a.panel,time{display:block}
 a span{vertical-align:middle}
 textarea{resize:vertical}
 
-img{width:100%}
+img{max-width:100%}
 .squareimg img,.rectangleimg img{width:100%}
 .pdlr13{padding-left:13px;padding-right:13px}
 
@@ -192,3 +192,9 @@ img{width:100%}
 .list_normal .row>.col-md-12:not(:last-child){border-bottom:1px solid #eee}
 .list_normal .row a{padding:10px}
 .article_wrap{line-height: 24px}
+
+.link_wrap li{margin-bottom: 3px}
+.link_wrap li:not(:last-child){border-bottom: 1px solid #eee}
+.link_wrap li a{padding: 12px 10px}
+.link_wrap li:after{font-size: 20px;position: absolute;right:12px;top: 50%;margin-top: -10px;color: #999}
+.link_wrap .fa{min-width: 24px}

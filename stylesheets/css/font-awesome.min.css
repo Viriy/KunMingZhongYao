@@ -11,7 +11,7 @@
     font-style: normal
 }
 
-.fa {
+.fa,.link_wrap li:after {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -1172,7 +1172,7 @@
     content: "\f104"
 }
 
-.fa-angle-right:before {
+.fa-angle-right:before,.link_wrap li:after {
     content: "\f105"
 }
 
