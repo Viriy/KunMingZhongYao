@@ -1507,8 +1507,8 @@ width: 100%;
   line-height:22px;
   min-height:20px}
 .radio-custom label:before, .radio-custom label:after{
-  height:18px;
-  width:18px;
+  height:20px;
+  width:20px;
   left:0;
   margin-right:10px;
   bottom:2px;
