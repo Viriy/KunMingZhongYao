@@ -164,6 +164,7 @@ a.panel,time{display:block}
 .edit_wrap a{line-height:52px;cursor:pointer}
 a span{vertical-align:middle}
 textarea{resize:vertical}
+textarea.form-control{line-height: 22px;padding:12px 9pt}
 
 img{max-width:100%}
 .squareimg img,.rectangleimg img{width:100%}
