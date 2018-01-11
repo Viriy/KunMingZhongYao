@@ -146,7 +146,7 @@ html.right-sidebar-opened .right-sidebar{
 /*================================================*/
 .scroll-to-top{
   position:fixed;
-  bottom:30px;
+  bottom:50px;
   right:30px;
   width:40px;
   z-index:1010;
@@ -2232,10 +2232,10 @@ html.error-500 body{
 html.error-404 body{
   background:#ececec}
 
-.squareimg [class^=col-],.squareimg [class*=col-]{margin-left:0;margin-right:0;padding:5px}
+.squareimg [class^=col-],.squareimg [class*=col-],.rectangleimg [class^=col-],.rectangleimg [class*=col-]{margin-left:0;margin-right:0;padding:5px}
 .squareimg.mr-xs{margin-top: -5px;margin-bottom: -5px}
 @media only screen and (max-width:767px){
-.squareimg [class^=col-],.squareimg [class*=col-]{margin-left:0;margin-right:0;padding:2px}
+.squareimg [class^=col-],.squareimg [class*=col-],.rectangleimg [class^=col-],.rectangleimg [class*=col-]{margin-left:0;margin-right:0;padding:2px}
 .squareimg.mr-xs{margin-top: -2px;margin-bottom: -2px}
 
 .mgt7{margin-top: 7px}
