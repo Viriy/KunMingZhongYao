@@ -139,7 +139,29 @@
                     </form>
                     <!--End PC端筛选 -->
                     <h2 class="tit_dct font16 tc mv-sm"><i class="i i_dec_l"></i><span>列表标题</span><i class="i i_dec_r"></i></h2>
-                    <div class="row squareimg pdlr13">
+                    <div class="list_wrap row squareimg pdlr13">
+                        <div class="col-md-6 col-lg-4">
+                            <a href="wx_list_details.html" class="panel bt-xs">
+                                <div class="panel-content widget-list list-left-element">
+                                    <div class="left-element"><img alt="" src="images/cell/img.jpg" /></div>
+                                    <div class="text">
+                                        <h3 class="title">推动高质量发展,“七个坚持”最重要</h3>
+                                        <p class="subtitle">副标题副标题副标题</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <a href="wx_list_details.html" class="panel bt-xs">
+                                <div class="panel-content widget-list list-left-element">
+                                    <div class="left-element"><img alt="" src="images/cell/img.jpg" /></div>
+                                    <div class="text">
+                                        <h3 class="title">推动高质量发展,“七个坚持”最重要</h3>
+                                        <p class="subtitle">副标题副标题副标题</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                         <div class="col-md-6 col-lg-4">
                             <a href="wx_list_details.html" class="panel bt-xs">
                                 <div class="panel-content widget-list list-left-element">
@@ -187,9 +209,7 @@
                             <a href="wx_list_details.html" class="panel bt-xs">
                                 <div class="panel-content list-no-img font12">
                                     <h3 class="title font16">推动高质量发展,“七个坚持”最重要</h3>
-                                    <p class="subtitle" flex="main:justify"><span class="flex1 ellipsis mgr10">通知公告</span>
-                                        <time><i class="fa fa-calendar font14 mgr5"></i><span>2018-1-9</span></time>
-                                    </p>
+                                    <p class="subtitle">副标题副标题副标题</p>
                                 </div>
                             </a>
                         </div>
@@ -197,12 +217,24 @@
                             <a href="wx_list_details.html" class="panel bt-xs">
                                 <div class="panel-content list-no-img font12">
                                     <h3 class="title font16">推动高质量发展,“七个坚持”最重要</h3>
-                                    <p class="subtitle" flex="main:justify"><span class="flex1 ellipsis mgr10">通知公告</span>
-                                        <time><i class="fa fa-calendar font14 mgr5"></i><span>2018-1-9</span></time>
-                                    </p>
+                                    <p class="subtitle">通知公告通知公告通知公告通知公告</p>
+                                    <time class="grey999"><i class="fa fa-calendar font14 mgr5"></i><span>2018-1-9</span></time>
                                 </div>
                             </a>
                         </div>
+                        <div class="col-md-6 col-lg-4">
+                            <a href="wx_list_details.html" class="panel bt-xs">
+                                <div class="panel-content list-no-img font12">
+                                    <h3 class="title font16">推动高质量发展,“七个坚持”最重要</h3>
+                                    <p class="subtitle">通知公告通知公告通知公告通知公告</p>
+                                    <time class="grey999"><i class="fa fa-calendar font14 mgr5"></i><span>2018-1-9</span></time>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="weui-loadmore tc">
+                        <i class="weui-loading"></i>
+                        <span class="weui-loadmore__tips">正在加载</span>
                     </div>
                 </div>
                 <!-- <a href="" class="fa fa-search font16 f_search radius text-center white"></a> -->
@@ -211,6 +243,18 @@
         </div>
         <script src="javascripts/jquery.min.js"></script>
         <script src="javascripts/template-script.min.js"></script>
+        <script src="javascripts/jquery-weui.min.js"></script>
+        <script>
+        var loading = false;
+        $(document.body).infinite().on("infinite", function() {
+            if (loading) return;
+            loading = true;
+            setTimeout(function() {
+                $(".list_wrap").append("<div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div><div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div><div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div><div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div><div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div><div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div><div class='col-md-6 col-lg-4'><a href='wx_list_details.html' class='panel bt-xs'><div class='panel-content list-no-img font12'><h3 class='title font16'>推动高质量发展,“七个坚持”最重要</h3><p class='subtitle'>副标题副标题副标题</p></div></a></div>");
+                loading = false;
+            },1000);
+        });
+        </script>
 </body>
 
 </html>
