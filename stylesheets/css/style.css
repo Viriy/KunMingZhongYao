@@ -2010,7 +2010,7 @@ label.error{
   display:block;
   font-size:16px;
   color:#222}
-.color222,.color222 a,.list-no-img .title,.list_txt >li> em,.list_txt >li> h3{color: #222}
+.color222,.color222 a,.list-no-img .title,.list_txt >li> em,.list_txt >li> h3,.list_wrap h3{color: #222}
 .grey999,.grey999 a,.list-no-img .subtitle{color: #999}
 .color666,.color666 a,.list_txt{color: #666}
 .widget-list.list-left-element .text .subtitle{
