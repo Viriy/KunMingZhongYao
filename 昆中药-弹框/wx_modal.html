@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="fixed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>详情</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="stylesheets/css/style.css">
+    <link rel="stylesheet" href="stylesheets/css/cell.css">
+</head>
+
+<body>
+    <a class="red" href="javascript:;" alt="删除" title="删除" data-toggle="modal" data-target="#del-modal">
+        <i class="fa fa-remove font22 mgr8"></i><span>删除</span>
+    </a>
+    <br>
+    <br>
+    <a href="javascript:;" alt="删除" title="删除" data-toggle="modal" data-target="#agmt-modal">
+        xx协议
+    </a>
+
+    <!-- 删除 Modal -->
+    <div class="modal fade" id="del-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header state">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="modal-small-label">警告</h4>
+                </div>
+                <div class="modal-body font15">
+                    删除后将无法恢复，确定删除？
+                </div>
+                <div class="modal-footer" flex="box:mean">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- xx协议 -->
+    <div class="modal fade" id="agmt-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+        <div class="modal-dialog modal-default" role="document">
+            <div class="modal-content">
+                <div class="modal-header state">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="modal-small-label">标题</h4>
+                </div>
+                <div class="modal-body font15">
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                </div>
+                <div class="modal-footer" flex="box:mean">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">同意</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="javascripts/template-script.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        var $btnTop = 1;
+        $(".btn_top").click(function() {
+            if ($btnTop) {
+                $(this).addClass("c_yellow").find("span").text("已置顶");
+                $btnTop = 0
+            } else {
+                $(this).removeClass("c_yellow").find("span").text("置顶");
+                $btnTop = 1
+            }
+        })
+    })
+    </script>
+</body>
+
+</html>

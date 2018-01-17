@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="fixed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>详情</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="stylesheets/css/style.css">
+    <link rel="stylesheet" href="stylesheets/css/cell.css">
+    <link rel="stylesheet" href="stylesheets/css/sweet-alert.css">
+</head>
+
+<body>
+    <div class="tl">
+        强制左对齐
+    </div>
+    <div class="tc">
+        居中
+    </div>
+    <div class="tr">
+        强制右对齐
+    </div>
+    <a class="btn btn-primary" href="javascript:;" alt="删除" title="删除" data-toggle="modal" data-target="#del-modal">
+        删除
+    </a>
+    <br>
+    <br>
+    <!-- 删除 Modal -->
+    <div class="modal fade" id="del-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header state">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">警告</h4>
+                </div>
+                <div class="modal-body font15">
+                    删除后将无法恢复，确定删除？
+                </div>
+                <div class="modal-footer" flex="box:mean">
+                    <button type="button" class="btn" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- xx协议 -->
+    <a class="btn btn-primary" href="javascript:;" alt="" title="" data-toggle="modal" data-target="#agmt-modal">
+        xx协议
+    </a>
+    <br>
+    <br>
+    <div class="modal fade" id="agmt-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+        <div class="modal-dialog modal-default" role="document">
+            <div class="modal-content">
+                <div class="modal-header state">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">标题</h4>
+                </div>
+                <div class="modal-body font15">
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                    <p>文本内容文本内容文本内容文本</p>
+                    <p>文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容</p>
+                </div>
+                <div class="modal-footer" flex="box:mean">
+                    <button type="button" class="btn" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">同意</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 提示成功 -->
+    <a class="btn btn-primary" href="javascript:;" alt="" title="" data-toggle="modal" data-target="#success-modal">
+        提示成功
+    </a>
+    <br>
+    <br>
+    <div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body font15">
+                    <div class="modal-icon modal-success animate" style="display: block;">
+                        <span class="line tip animateSuccessTip"></span>
+                        <span class="line long animateSuccessLong"></span>
+                        <div class="placeholder"></div>
+                        <div class="fix"></div>
+                    </div>
+                    <div class="model-txt pr">
+                        <p class="tc font16 color666 mb-sm">修改成功!</p>
+                    </div>
+                </div>
+                <div class="modal-footer" flex="box:mean">
+                    <button type="button" class="btn-default font16 bule" data-dismiss="modal">确 定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 提示失败/错误 -->
+    <a class="btn btn-primary" href="javascript:;" alt="" title="" data-toggle="modal" data-target="#error-modal">
+        提示失败/错误
+    </a>
+    <br>
+    <br>
+    <div class="modal fade" id="error-modal" tabindex="-1" role="dialog" aria-labelledby="modal-small-label">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body font15">
+                    <div class="modal-icon modal-error animateErrorIcon">
+                        <span class="x-mark animateXMark">
+                            <span class="line left"></span>
+                            <span class="line right"></span>
+                        </span>
+                    </div>
+                    <div class="model-txt pr">
+                        <p class="tc font16 color666 mb-sm">修改成功!</p>
+                    </div>
+                </div>
+                <div class="modal-footer" flex="box:mean">
+                    <button type="button" class="btn-default font16 bule" data-dismiss="modal">确 定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="javascripts/template-script.min.js"></script>
+</body>
+
+</html>

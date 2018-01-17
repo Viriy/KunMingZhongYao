@@ -241,13 +241,6 @@ html.right-sidebar-opened .right-sidebar{
 /* MOBIL VERSION*/
 /*================================================*/
 @media only screen and (max-width:767px){
-  .visible-xs[flex]{
-    display: -webkit-box !important;
-    display: -webkit-flex !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-  }
-
   html .page-body{
     min-height:0;
     padding-top:0;
@@ -1158,7 +1151,7 @@ blockquote{
 .btn-success.btn-o:hover, .btn-success.btn-o:focus, .btn-success.btn-o:active{
   color:#FFF}
 
-.btn-warning,input[type="submit"].btn-warning{
+.btn-warning{
   background:#fea223;
   border-color:#fea223}
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active{
@@ -1214,7 +1207,7 @@ blockquote{
   color:#0b8fff}
 .btn-lighter-2.btn-o:hover, .btn-lighter-2.btn-o:focus, .btn-lighter-2.btn-o:active{
   color:#fff}
-.btn-default,.btn-default:hover{background:#fff}
+
 .btn-primary{
   background:#4988c9;
   border-color:#4988c9;
@@ -2256,7 +2249,7 @@ html .page-body .f_btn~.content{padding-bottom:60px}
 .page-header #user-headerbox .dropdown-box{margin-top: 6px}
 
 .page-header,.page-header .leftside-header .toggle-left-sidebar,.page-header .leftside-header .logo,.page-header .rightside-header{height: 44px}
-.page-header,.page-header a.fa,.page-header .fa-bars,.page-header h1,.page-header .leftside-header .toggle-left-sidebar{line-height:44px}
+.page-header,.page-header a.fa,.page-header h1,.page-header .leftside-header .toggle-left-sidebar{line-height:44px}
 .page-header .t_icon{padding:0 15px;height:44px}
 .dropdown-box{line-height: 26px}
 
