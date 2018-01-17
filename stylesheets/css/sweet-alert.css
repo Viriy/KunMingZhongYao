@@ -1,4 +1,3 @@
-
 .sweet-overlay {
   background-color:rgba(0, 0, 0, 0.4);
   position:fixed;
@@ -19,12 +18,12 @@
     padding:0;
     position:relative;
     box-sizing:content-box}
-    .modal-icon.error {
+    .modal-icon.modal-error {
       border-color:#F27474}
-      .modal-icon.error .x-mark {
+      .modal-icon.modal-error .x-mark {
         position:relative;
         display:block}
-      .modal-icon.error .line {
+      .modal-icon.modal-error .line {
         position:absolute;
         height:5px;
         width:47px;
@@ -32,17 +31,17 @@
         display:block;
         top:37px;
         border-radius:2px}
-        .modal-icon.error .line.left {
+        .modal-icon.modal-error .line.left {
           -webkit-transform:rotate(45deg);
           transform:rotate(45deg);
           left:17px}
-        .modal-icon.error .line.right {
+        .modal-icon.modal-error .line.right {
           -webkit-transform:rotate(-45deg);
           transform:rotate(-45deg);
           right:16px}
-    .modal-icon.warning {
+    .modal-icon.modal-warning {
       border-color:#F8BB86}
-      .modal-icon.warning .body {
+      .modal-icon.modal-warning .body {
         position:absolute;
         width:5px;
         height:47px;
@@ -51,7 +50,7 @@
         border-radius:2px;
         margin-left:-2px;
         background-color:#F8BB86}
-      .modal-icon.warning .dot {
+      .modal-icon.modal-warning .dot {
         position:absolute;
         width:7px;
         height:7px;
