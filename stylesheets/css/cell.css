@@ -227,4 +227,5 @@ img,w100{max-width:100%}
 .menu_wrap li{padding:5px}
 .menu_wrap li a{background:#fff;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;display:block;padding-bottom:14px;padding-top:10px}
 
-.no_ms img{width:36%;max-width: 160px}
+.no_ms{margin-top:30px}
+.no_ms img{width:38%;max-width: 160px}
