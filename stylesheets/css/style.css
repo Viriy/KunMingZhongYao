@@ -1597,6 +1597,7 @@ input:checked + .slider:before{
   border-radius:50%}
 
 .required{
+  min-width: 6px;
   display:inline-block;
   color:#d2322d;
   font-size:15px;
