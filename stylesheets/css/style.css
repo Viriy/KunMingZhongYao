@@ -450,16 +450,16 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b57a0', endC
   width:100%}
 .page-header #user-headerbox .user-header-wrap .user-info{
   display:inline-block;
-  vertical-align:middle;
-  margin-bottom:10px;
-  margin-top:10px}
+  max-width: 5em;
+  max-height: 30px;
+  line-height: 1.3em;
+  vertical-align:middle;overflow: hidden;text-shadow: 0 1px 1px rgba(0,0,0,.6)}
 .page-header #user-headerbox .user-header-wrap .user-info span{
   display:block;
   font-weight:bold}
 .page-header #user-headerbox .user-header-wrap .user-info span.user-name{
   color:#fff;
-  font-size:15px;
-  font-size:1.15385rem;
+  font-size:13px;
   line-height:18px;
   line-height:1.38462rem}
 .page-header #user-headerbox .user-header-wrap .user-info span.user-profile{

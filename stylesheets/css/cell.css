@@ -68,6 +68,7 @@ h1,.h1,h2,.h2,h3,.h3{margin:0}
 .mlr75{margin-left:1rem;margin-right:1rem}
 .mlr30{margin-left:.4rem;margin-right:.4rem}
 .mlr40{margin-left:.533333rem;margin-right:.533333rem}
+.mlr12{margin-left: 12px;margin-right: 12px}
 .mt{margin-top:.266667rem}
 .mt50{margin-top:.666667rem}
 .mt60{margin-top:.8rem}
@@ -154,6 +155,7 @@ a:focus,input:focus,button:focus{outline:none}
 .c_bule,a.c_bule{color:#4988c9}
 .c_yellow,a.c_yellow{color:#ffc240}
 
+.bor_t_dashed{border-top:1px dashed #eee}
 .bor_t{border-top:1px solid #eee}
 .bor_b{border-bottom:1px solid #eee}
 
@@ -174,6 +176,7 @@ a.panel,time{display:block}
 .list_txt >li >p{text-align:right;margin-left:15px}
 .edit_wrap{margin:-12px -12px 0}
 .edit_wrap a{line-height:52px;cursor:pointer}
+
 a span{vertical-align:middle}
 textarea{resize:vertical}
 textarea.form-control{line-height:22px;padding:12px 9pt}
