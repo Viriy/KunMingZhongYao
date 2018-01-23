@@ -179,7 +179,7 @@ a.panel,time{display:block}
 .list_txt li{margin-bottom:3px;background:#f7f7f7;padding:12px 10px;line-height:20px}
 .list_txt >li >p{text-align:right;margin-left:15px}
 .edit_wrap{margin:-12px -12px 0}
-.edit_wrap a{line-height:45px;cursor:pointer}
+.edit_wrap a{line-height:40px;cursor:pointer}
 
 a span{vertical-align:middle}
 textarea{resize:vertical}
