@@ -173,13 +173,13 @@ a.panel,time{display:block}
 .list_wrap a{overflow:hidden}
 .link_arrow{padding-right:38px !important;position: relative;display: block}
 .link_arrow h3{margin-bottom: 14px !important}
-.link_arrow:before {position: absolute;top: 50%;right:12px;margin-top:-18px;font-size: 28px;content:"\f105";color: #999}
+.link_arrow:before {position: absolute;top: 50%;right:12px;margin-top:-20px;font-size: 28px;content:"\f105";color: #999}
 
 /*details*/
 .list_txt li{margin-bottom:3px;background:#f7f7f7;padding:12px 10px;line-height:20px}
 .list_txt >li >p{text-align:right;margin-left:15px}
 .edit_wrap{margin:-12px -12px 0}
-.edit_wrap a{line-height:40px;cursor:pointer}
+.edit_wrap a{line-height:44px;cursor:pointer}
 
 a span{vertical-align:middle}
 textarea{resize:vertical}
