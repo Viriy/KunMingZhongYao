@@ -185,7 +185,7 @@ a span{vertical-align:middle}
 textarea{resize:vertical}
 textarea.form-control{line-height:22px;padding:12px 9pt}
 
-img,w100{max-width:100%}
+img,.w100{max-width:100%}
 .squareimg img,.rectangleimg img{width:100%}
 .pdlr13{padding-left:13px;padding-right:13px}
 
@@ -236,3 +236,4 @@ img,w100{max-width:100%}
 
 .no_ms{margin-top:42px}
 .no_ms img{width:38%;max-width: 160px}
+.welcome_wrap img{width:66%;max-width: 260px}
